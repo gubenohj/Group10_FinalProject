@@ -6,6 +6,12 @@
 <head runat="server">
     <title></title>
 </head>
+<style>
+    body {
+        background-color: #FF9999;
+        align-content: center;
+    }
+</style>
 <body>
     <form id="form1" runat="server">
         <div style="text-align: center">
@@ -18,7 +24,7 @@
             <asp:Label ID="LblExample" runat="server" Text="Leet Code Example 1: input: n = 13, output: 6."></asp:Label>
             <br />
             <asp:Label ID="lblNum" runat="server" Text="n= " Font-Size="24"></asp:Label>
-            <asp:TextBox ID="num" runat="server" Font-Size="24" Width="60" BackColor="LightYellow"></asp:TextBox>
+            <asp:TextBox ID="num" runat="server" Font-Size="24" Width="60" BackColor="#FF9999"></asp:TextBox>
             <br />
             <br />
             <asp:Button ID="btnEnter" runat="server" Text="Enter" OnClick="btnSolve_Click" Font-Size="30" />

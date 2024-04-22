@@ -6,12 +6,33 @@
 <head runat="server">
     <title></title>
 </head>
+<style>
+    body {
+        background-color: lightblue;
+        align-content: center;
+    }
+</style>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Button ID="cmdEasy" runat="server" Text="Easy" OnCLick="cmdEasy_Click"/>
-            <asp:Button ID="cmdMedium" runat="server" Text="Medium" OnClick="cmdMedium_Click"/>
-            <asp:Button ID="cmdHard" runat="server" Text="Hard" OnClick="cmdHard_Click"/>
+        <div style="text-align: center">
+            <asp:Label ID="title" runat="server" Text="LeetCode Problems" Font-Size="36"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Label ID="lblEasy" runat="server" Text="Easy" Font-Size="24"></asp:Label>
+            <br />
+            <asp:Button ID="cmdEasy" runat="server" Text="Problem 2235" OnCLick="cmdEasy_Click" BackColor="LightGreen" Font-Size="30" />
+            <br />
+            <br />
+            <asp:Label ID="lblMedium" runat="server" Text="Medium" Font-Size="24"></asp:Label>
+            <br />
+            <asp:Button ID="cmdMedium" runat="server" Text="Problem 12" OnClick="cmdMedium_Click" BackColor="LightYellow" Font-Size="30" />
+            <br />
+            <br />
+            <asp:Label ID="lblHard" runat="server" Text="Hard" Font-Size="24"></asp:Label>
+            <br />
+            <asp:Button ID="cmdHard" runat="server" Text="Problem 233" OnClick="cmdHard_Click" BackColor="#FF9999" Font-Size="30" />
         </div>
     </form>
 </body>

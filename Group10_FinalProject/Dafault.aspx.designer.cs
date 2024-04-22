@@ -24,6 +24,24 @@ namespace Group10_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// title control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label title;
+
+        /// <summary>
+        /// lblEasy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEasy;
+
+        /// <summary>
         /// cmdEasy control.
         /// </summary>
         /// <remarks>
@@ -33,6 +51,15 @@ namespace Group10_FinalProject
         protected global::System.Web.UI.WebControls.Button cmdEasy;
 
         /// <summary>
+        /// lblMedium control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMedium;
+
+        /// <summary>
         /// cmdMedium control.
         /// </summary>
         /// <remarks>
@@ -40,6 +67,15 @@ namespace Group10_FinalProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button cmdMedium;
+
+        /// <summary>
+        /// lblHard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblHard;
 
         /// <summary>
         /// cmdHard control.
